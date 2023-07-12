@@ -3,6 +3,9 @@
 document.getElementById('myButton').addEventListener('click', fetchData);
 document.getElementById('submit').addEventListener('click', fetchSolo);
 document.getElementById('submitTeam').addEventListener('click', formParty);
+document
+  .getElementById('submitTeamManual')
+  .addEventListener('click', submitManual);
 
 async function fetchData() {
   const theNumb = Math.floor(Math.random() * 1010);
@@ -67,8 +70,11 @@ async function fetchSolo() {
     '<img src=' + record.sprites.front_shiny + ' style="width: 150px;"></img>';
 }
 
+async function submitManual() {
+  window.location.replace('buildteam.html');
+}
 async function formParty() {
-  window.location.replace('index2.html');
+  window.location.replace('generateteam.html');
   /*setTimeout(100);
   theIndex = 2;
   for (i = 0; i < theLength; i++) {
