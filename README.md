@@ -5,6 +5,7 @@ This guide will walk you through installing a Chrome Extension manually in Googl
 Installation Steps:
 
 
+
 1) Download the Extension Files
 
 Click the Code button in this repository.
@@ -12,6 +13,7 @@ Click the Code button in this repository.
 Select Download ZIP.
 
 Extract the ZIP file to a local folder on your computer.
+
 
 
 2) Load the Extension in Chrome
