@@ -26,6 +26,6 @@ Enable Developer mode (toggle in the top-right corner).
 
 Click Load unpacked.
 
-Select the /extension folder inside the downloaded repo.
+Select the project folder (root).
 
 The extension should now appear in Chrome!
